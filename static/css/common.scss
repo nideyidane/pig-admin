@@ -1,0 +1,81 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: "Microsoft Yahei",sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    &:focus {
+        outline: none;
+    }
+}
+html body {
+    min-width: 1200px;
+}
+.el-message {
+    top: 16%!important;
+}
+.titleName {
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    color: #606266;
+    font-size: 18px;
+    background: #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+.cardBox .el-card__body {
+    padding: 0;
+}
+.gestures {
+    cursor: pointer;
+}
+.text-r {
+    text-align: right;
+}
+//----------width-----------
+.width240 {
+    width: 240px;
+}
+.width480 {
+	width: 480px
+}
+//----------input-----------
+.readonly input {
+    background: #f5f7fa;
+    cursor: pointer;
+}
+.el-select {
+    width: 100%;
+}
+//----------button-----------
+.btnBox {
+    padding-top: 20px;
+    text-align: center;
+}
+//----------padding-----------
+.padding-l-40 {
+    padding-left: 40px;
+}
+.padding-l-60 {
+    padding-left: 60px;
+}
+.padding-10 {
+    padding: 10px;
+}
+.padding-20 {
+    padding: 20px;
+}
+.padding-0 {
+    padding: 0px!important;
+}
+
+//----------font----------
+.blue {
+    color: #409EFF;
+}
